@@ -7,8 +7,8 @@ body {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
     font-size: 1.6rem;
-    background: #d6e1f0;
-    color: rgb(241, 241, 241);
+    background: white;
+    color: white;
   }
   .app {
     width: 60%;
@@ -22,5 +22,19 @@ body {
     transition: 0.2s;
   }
   .app:hover {
+    transform: scale(1.01);
+  }
+
+  #b_btn {
+      background-color:#c12e60;
+      font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+      font-size: 1.6rem;
+      color: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 20px rgba(0, 0, 0, 0.307);
+      cursor: pointer;
+      transition: 0.2s;
+  }
+  #b_btn:hover {
     transform: scale(1.01);
   }
